@@ -31,11 +31,11 @@ for md_file in Path(CONTENT_DIR).glob("*.md"):
     title = file_name.replace("-", " ").capitalize()
 
     # Special case for home page
-    if file_name == "home":
-        nav_items.append(
-            '<li class="nav-item"><a class="nav-link" href="/">Home</a></li>'
-        )
-    else:
+    if file_name != "home":
+        #     nav_items.append(
+        #         '<li class="nav-item"><a class="nav-link" href="/">Home</a></li>'
+        #     )
+        # else:
         nav_items.append(
             f'<li class="nav-item"><a class="nav-link" href="{file_name}.html">{title}</a></li>'
         )
