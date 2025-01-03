@@ -1,6 +1,7 @@
 import os
 import markdown
 from pathlib import Path
+import shutil
 
 # Paths
 CONTENT_DIR = "content"
@@ -13,6 +14,14 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 # Load the HTML template
 with open(TEMPLATE_FILE, "r") as template_file:
     template = template_file.read()
+
+# Copy static assets (img, css, js) to output directory
+for folder in ["img", "css", "js"]:
+    source = Path(CONTENT_DIR) / folder
+    destination = Path(OUTPUT_DIR) / folder
+    if source.exists():
+        shutil.copytree(source, destination, dirs_exist_ok=True)
+        print(f"Copied {folder} from {source} to {destination}")
 
 # Build navigation bar
 nav_items = []
