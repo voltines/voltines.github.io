@@ -14,6 +14,19 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 with open(TEMPLATE_FILE, "r") as template_file:
     template = template_file.read()
 
+# Build navigation bar
+nav_items = []
+for md_file in Path(CONTENT_DIR).glob("*.md"):
+    # Generate navigation link
+    file_name = md_file.stem
+    title = file_name.replace("-", " ").capitalize()
+    nav_items.append(
+        f'<li class="nav-item"><a class="nav-link" href="{file_name}.html">{title}</a></li>'
+    )
+
+# Join navigation items into a single string
+navigation_html = "\n".join(nav_items)
+
 # Process each Markdown file
 for md_file in Path(CONTENT_DIR).glob("*.md"):
     # Determine the output HTML file name
@@ -27,8 +40,12 @@ for md_file in Path(CONTENT_DIR).glob("*.md"):
         md_content = file.read()
     html_content = markdown.markdown(md_content)
 
-    # Insert the title and content into the template
-    final_html = template.replace("{{ title }}", title).replace("{{ content }}", html_content)
+    # Insert the title, navigation, and content into the template
+    final_html = (
+        template.replace("{{ title }}", title)
+        .replace("{{ navigation }}", navigation_html)
+        .replace("{{ content }}", html_content)
+    )
 
     # Save the resulting HTML file
     with open(output_file, "w") as file:
