@@ -4,6 +4,7 @@ from pathlib import Path
 import shutil
 
 # Paths
+ASSETS_DIR = "assets"
 CONTENT_DIR = "content"
 OUTPUT_DIR = "html"
 TEMPLATE_FILE = "template.html"
@@ -17,7 +18,7 @@ with open(TEMPLATE_FILE, "r") as template_file:
 
 # Copy static assets (img, css, js) to output directory
 for folder in ["img", "css", "js"]:
-    source = Path(CONTENT_DIR) / folder
+    source = Path(ASSETS_DIR) / folder
     destination = Path(OUTPUT_DIR) / folder
     if source.exists():
         shutil.copytree(source, destination, dirs_exist_ok=True)
