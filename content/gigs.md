@@ -11,17 +11,6 @@ Catch **The Voltines** live at these exciting events! Don't miss the energy and 
 
 ---
 
-## Full Schedule
-### January 2025
-- **Saturday, January 20th:** The Electric Lounge, Downtown @ 8:00 PM
-- **Friday, January 26th:** Skyline Rooftop, Uptown @ 7:30 PM
-
-### February 2025
-- **Saturday, February 10th:** Grand Hall, Midtown @ 8:00 PM
-- **Friday, February 23rd:** Riverfront Stage, Waterfront @ 8:30 PM
-
----
-
 # Past Performances
 
 Here are some highlights from our recent shows. Thanks to everyone who came out to support us!

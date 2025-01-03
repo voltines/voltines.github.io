@@ -14,8 +14,7 @@ To book us for your wedding, corporate event, or private party, please provide:
 ---
 
 ## Contact Details
-- **Email:** thevoltinesband@example.com  
-- **Phone:** (555) 123-4567  
+- **Email:** 
 - **Social Media:**  
   - [Instagram](https://instagram.com/thevoltines)  
   - [Facebook](https://facebook.com/thevoltines)  

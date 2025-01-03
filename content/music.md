@@ -7,18 +7,12 @@ Our repertoire spans decades and genres, delivering something for everyone. Whet
 ## Popular Covers
 ### Classic Rock
 - "Sweet Child O’ Mine" – Guns N’ Roses  
-- "Livin’ on a Prayer" – Bon Jovi  
-- "Hotel California" – Eagles  
 
 ### Modern Pop
-- "Uptown Funk" – Bruno Mars  
-- "Shape of You" – Ed Sheeran  
 - "Rolling in the Deep" – Adele  
 
 ### Blues & Soul
-- "Superstition" – Stevie Wonder  
 - "Valerie" – Amy Winehouse  
-- "Proud Mary" – Tina Turner  
 
 ---
 
