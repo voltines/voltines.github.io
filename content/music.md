@@ -17,6 +17,6 @@ Our repertoire spans decades and genres, delivering something for everyone. Whet
 ---
 
 ## Listen to Us
-[Check out our live performances on YouTube!](https://youtube.com)
+[Check out our live performances on YouTube!](https://www.youtube.com/playlist?list=PLw5R-srekOnHNYEg2qVXjqzlteNRqiKa8)
 
 Have a favorite song in mind? [Contact us](contact.html) to request it for your event!
