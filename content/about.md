@@ -7,12 +7,14 @@
 *Rocking the crowd at Comrades Corner.*
 
 ## Who We Are
-- **Natalie Stott**: Lead Vocals  
-- **Chris Ray**: Bass & Vocals  
-- **Adam Howard**: Drums & Vocals  
-- **James Rickard**: Guitar
-- **Dominic James**: Guitar, Thermin and Stylophone
-- **Peter Stuart**: Keyboards & Vocals
+- **Electra Current (a.k.a. Natalie Stott)**: Lead Vocals  
+- **Mega Watts (a.k.a. Chris Ray)**: Bass & Vocals  
+- **Shock Sticks (a.k.a. Adam Howard)**: Drums & Vocals  
+- **String Surge (a.k.a. James Rickard)**: Guitar
+- **Arc Furnace (a.k.a. Dominic James)**: Guitar, Thermin and Stylophone
+- **3-Phase (a.k.a) Peter Stuart**: Keyboards & Vocals
+
+Like our Voltine Names, try [generating your own](name_generator.html)
 
 We bring a mix of charisma, talent, and experience to every stage, ensuring an unforgettable night for all audiences.
 
