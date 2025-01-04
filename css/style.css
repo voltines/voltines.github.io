@@ -50,14 +50,14 @@ footer {
 
 #logo {
     margin-right: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 
 #navbarNav > ul > li > a {
     vertical-align: bottom;
     font-size: 2rem;
     font-weight: bold;
-    color: #f9dc5c; 
+    color: #FEEC02; 
 }
 
 #navbarNav > ul > li > a:hover {
