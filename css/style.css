@@ -59,3 +59,7 @@ footer {
     color: #f9dc5c; 
     margin-bottom: 0px;
 }
+
+#navbarNav > ul > li > a:hover {
+    color: #ff6f61; 
+}
