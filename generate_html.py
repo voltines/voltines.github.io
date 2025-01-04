@@ -24,7 +24,14 @@ for folder in ["img", "css", "js"]:
         shutil.copytree(source, destination, dirs_exist_ok=True)
         print(f"Copied {folder} from {source} to {destination}")
 
+# Copy CNAME
+source_file = "CNAME"
+output_file = Path(OUTPUT_DIR) / output_file
+
+shutil.copy(source_file, output_file)
+
 # Build navigation bar
+
 nav_items = []
 for md_file in Path(CONTENT_DIR).glob("*.md"):
     # Generate navigation link
