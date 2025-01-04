@@ -22,7 +22,7 @@ a:hover {
 /* Header */
 header {
     text-align: center;
-    background: #02020f; /* Dark background for contrast */
+    background:#1D3442; /* Dark background for contrast */
     padding: 2rem 0;
     color: #ffffff;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
@@ -60,7 +60,7 @@ h2 {
     max-width: 900px;
     margin: 2rem auto;
     padding: 1.5rem;
-    background: #1D3442; 
+    background: rgba(255, 255, 255, 0.1); /* Transparent white for subtle contrast */
     border-radius: 10px;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
 }
