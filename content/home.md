@@ -4,13 +4,13 @@ We are **The Voltines**, an electrifying covers band bringing the energy to ever
 
 ![The Voltines Band Photo](img/band-greenway.jpg)
 
-## What Do We Play?
+## What do we play?
 
 From classic rock to modern pop, we cover it all! Check out [our music](music.html) to hear what we’re about.
 
-## Where to find us?
+## Where can you see us?
 
-[Check out our  gig schedule!](gigs.html)
+Check out our  [gig schedule!](gigs.html)
 
 ## Want to get in touch?
 
