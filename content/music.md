@@ -7,34 +7,34 @@ Our repertoire spans decades and genres, delivering something for everyone. Whet
 ## Popular Covers
 
 ### Modern
-- "Sex on Fire" – Kings of Leon
-- "Mr. Brightside" – The Killers
-- "Rolling in the Deep" – Adele
-- "Vampire" – Olivia Rodrigo
-- "Roar" – Katy Perry
-- "Titanium" – Sia
-- "Feel So Close" – Calvin Harris
-- "Dancing on My Own" – Robyn
-- "You Got the Love" – Florence & The Machine
-- "Valerie" – Amy Winehouse
+- Sex on Fire – Kings of Leon
+- Mr. Brightside – The Killers
+- Rolling in the Deep – Adele
+- Vampire – Olivia Rodrigo
+- Roar – Katy Perry
+- Titanium – Sia
+- Feel So Close – Calvin Harris
+- Dancing on My Own – Robyn
+- You Got the Love – Florence & The Machine
+- Valerie – Amy Winehouse
 
 ### 80s
-- "99 Red Balloons" – Nena
-- "Sing It Back" – Moloko
-- "I Think We’re Alone Now" – Tiffany
-- "Just Can’t Get Enough" – Depeche Mode
-- "Sweet Child O’ Mine" – Guns N’ Roses
+- 99 Red Balloons – Nena
+- Sing It Back – Moloko
+- I Think We’re Alone Now – Tiffany
+- Just Can’t Get Enough – Depeche Mode
+- Sweet Child O’ Mine – Guns N’ Roses
 
 ### 90s
-- "Under the Bridge" – Red Hot Chili Peppers
-- "You Oughta Know" – Alanis Morissette
-- "Missing" – Everything But The Girl
-- "Sing It Back" – Moloko
-- "Creep" – Radiohead
+- Under the Bridge – Red Hot Chili Peppers
+- You Oughta Know – Alanis Morissette
+- Missing – Everything But The Girl
+- Sing It Back – Moloko
+- Creep – Radiohead
 
 ### Classic Rock
-- "Everywhere" – Fleetwood Mac
-- "I Think We’re Alone Now" – Tommy James and the Shondells
+- Everywhere – Fleetwood Mac
+- I Think We’re Alone Now – Tommy James and the Shondells
 
 ---
 
