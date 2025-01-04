@@ -50,6 +50,7 @@ footer {
 
 #logo {
     margin-right: 10px;
+    padding-bottom: 10px;
 }
 
 #navbarNav > ul > li > a {
@@ -57,8 +58,6 @@ footer {
     font-size: 2rem;
     font-weight: bold;
     color: #f9dc5c; 
-    margin-bottom: 0px;
-    padding-bottom: 0px;
 }
 
 #navbarNav > ul > li > a:hover {
