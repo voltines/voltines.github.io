@@ -2,7 +2,7 @@
 
 We are **The Voltines**, an electrifying covers band bringing the energy to every gig. Whether it's a wedding, corporate event, or live music venue, we play the hits you love to sing and dance to!
 
-<img src="img/band-greenway.jpg" alt="The Voltines Band Photo" class="img-fluid">
+![The Voltines Band Photo](img/band-greenway.jpg)
 
 ## What do we play?
 

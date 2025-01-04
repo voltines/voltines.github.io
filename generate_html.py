@@ -2,6 +2,7 @@ import os
 import markdown
 from pathlib import Path
 import shutil
+from bs4 import BeautifulSoup  # Import BeautifulSoup
 
 # Paths
 ASSETS_DIR = "assets"
@@ -27,11 +28,9 @@ for folder in ["img", "css", "js"]:
 # Copy CNAME
 source_file = "CNAME"
 output_file = Path(OUTPUT_DIR) / source_file
-
 shutil.copy(source_file, output_file)
 
 # Build navigation bar
-
 nav_items = []
 for md_file in Path(CONTENT_DIR).glob("*.md"):
     # Generate navigation link
@@ -40,10 +39,6 @@ for md_file in Path(CONTENT_DIR).glob("*.md"):
 
     # Special case for home page
     if file_name != "home":
-        #     nav_items.append(
-        #         '<li class="nav-item"><a class="nav-link" href="/">Home</a></li>'
-        #     )
-        # else:
         nav_items.append(
             f'<li class="nav-item"><a class="nav-link" href="{file_name}.html">{title}</a></li>'
         )
@@ -66,6 +61,14 @@ for md_file in Path(CONTENT_DIR).glob("*.md"):
     with open(md_file, "r") as file:
         md_content = file.read()
     html_content = markdown.markdown(md_content)
+
+    # Parse the HTML content and add 'img-fluid' class to all <img> tags
+    soup = BeautifulSoup(html_content, "html.parser")
+    for img in soup.find_all("img"):
+        existing_classes = img.get("class", [])
+        existing_classes.append("img-fluid")
+        img["class"] = existing_classes
+    html_content = str(soup)
 
     # Insert the title, navigation, and content into the template
     final_html = (
