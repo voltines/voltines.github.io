@@ -8,9 +8,9 @@
 
 ## Who We Are
 - **Natalie Stott**: Lead Vocals  
-- **Chris**: Bass & Vocals  
+- **Chris Ray**: Bass & Vocals  
 - **Adam Howard**: Drums & Vocals  
-- **James**: Guitar
+- **James Rickard**: Guitar
 - **Dominic James**: Guitar, Thermin and Stylophone
 - **Peter Stuart**: Keyboards & Vocals
 
