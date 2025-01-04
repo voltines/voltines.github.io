@@ -10,7 +10,7 @@
 - **Electra Current (a.k.a. Natalie Stott)**: Lead Vocals  
 - **Mega Watts (a.k.a. Chris Ray)**: Bass & Vocals  
 - **Shock Sticks (a.k.a. Adam Howard)**: Drums & Vocals  
-- **String Surge (a.k.a. James Rickard)**: Guitar
+- **Fuse Box (a.k.a. James Rickard)**: Guitar
 - **Arc Furnace (a.k.a. Dominic James)**: Guitar, Thermin and Stylophone
 - **3-Phase (a.k.a) Peter Stuart**: Keyboards & Vocals
 
