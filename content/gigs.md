@@ -14,7 +14,7 @@ We are currently arranging our gig schedule for 2025, please check back later or
 
 Here are some highlights from our recent shows. Thanks to everyone who came out to support us!
 
-- **Saturday, November 23rd 2024:** Comcrades Corner, Berkhamsted - [YouTube Video](https://www.youtube.com/playlist?list=PLw5R-srekOnHNYEg2qVXjqzlteNRqiKa8)
+- **Saturday, November 23rd 2024:** Comrades Corner, Berkhamsted - [YouTube Video](https://www.youtube.com/playlist?list=PLw5R-srekOnHNYEg2qVXjqzlteNRqiKa8)
  
 - **Saturday, June 22nd 2024:** Greenway Festival, Berkhamsted
 
