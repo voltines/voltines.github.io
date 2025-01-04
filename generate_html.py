@@ -26,7 +26,7 @@ for folder in ["img", "css", "js"]:
 
 # Copy CNAME
 source_file = "CNAME"
-output_file = Path(OUTPUT_DIR) / output_file
+output_file = Path(OUTPUT_DIR) / source_file
 
 shutil.copy(source_file, output_file)
 
