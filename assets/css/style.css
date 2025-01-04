@@ -39,7 +39,6 @@ header h1 {
 header p {
     font-size: 1.2rem;
     font-weight: bold;
-    text-transform: uppercase;
     color: #f4511e; /* Bright orange for emphasis */
 }
 
@@ -48,7 +47,6 @@ h2 {
     text-align: center;
     font-size: 2rem;
     color: #f9dc5c;
-    text-transform: uppercase;
     margin-bottom: 1rem;
     border-bottom: 2px solid #f9dc5c;
     display: inline-block;
@@ -80,7 +78,6 @@ input[type="submit"] {
     font-weight: bold;
     border-radius: 5px;
     cursor: pointer;
-    text-transform: uppercase;
     transition: background 0.3s ease, color 0.3s ease;
 }
 
