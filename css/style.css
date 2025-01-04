@@ -1,68 +1,45 @@
 /* General Styles */
 body {
     font-family: 'Arial', sans-serif;
-    color: #ffffff; /* White text for readability */
-    background: linear-gradient(to bottom, #0a0a23, #3d005c); /* Gradient background similar to the flyer */
+    color: #ffffff; 
+    background: linear-gradient(to bottom, #0a0a23, #3d005c);
     margin: 0;
     padding: 0;
     line-height: 1.6;
 }
 
-/* Links */
 a {
-    color: #f9dc5c; /* Bright yellow for links */
+    color: #f9dc5c; 
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #ff6f61; /* Light red on hover */
+    color: #ff6f61; 
 }
 
-/* Header */
-header {
-    text-align: center;
-    background:#1D3442; /* Dark background for contrast */
-    padding: 2rem 0;
-    color: #ffffff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
-}
 
-header h1 {
-    font-size: 3rem;
+h1 {
+    font-size: 2rem;
     font-weight: bold;
-    color: #f9dc5c; /* Vibrant yellow for main title */
+    color: #f9dc5c; 
 }
 
-header p {
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: #f4511e; /* Bright orange for emphasis */
-}
-
-/* Section Titles */
 h2 {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #f9dc5c;
-    display: inline-block;
 }
 
-/* Main Content */
 .container {
     max-width: 900px;
     margin: 2rem auto;
     padding: 1.5rem;
-    background: rgba(255, 255, 255, 0.1); /* Transparent white for subtle contrast */
+    background: rgba(255, 255, 255, 0.1);
     border-radius: 10px;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
 }
 
-.container h2 {
-    margin-top: 0;
-}
-
-/* Footer */
 footer {
     background: #02020f;
     color: #ffffff;
