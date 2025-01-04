@@ -20,8 +20,6 @@ Our repertoire spans decades and genres, delivering something for everyone. Whet
 
 ### 80s
 - 99 Red Balloons – Nena
-- Sing It Back – Moloko
-- I Think We’re Alone Now – Tiffany
 - Just Can’t Get Enough – Depeche Mode
 - Sweet Child O’ Mine – Guns N’ Roses
 
