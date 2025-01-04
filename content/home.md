@@ -2,11 +2,7 @@
 
 We are **The Voltines**, an electrifying covers band bringing the energy to every gig. Whether it's a wedding, corporate event, or live music venue, we play the hits you love to sing and dance to!
 
-## Next Performance
-**Where:** The Electric Lounge, Downtown  
-**When:** Saturday, January 20th, 2025 @ 8:00 PM
-
-[Check out our full gig schedule!](gigs.html)
+[Check out our  gig schedule!](gigs.html)
 
 ---
 
