@@ -12,4 +12,4 @@ To book us for your wedding, corporate event, or private party, please get in to
 
 **Contact Form:** 
 
-To send us a message please use [this form]("https://docs.google.com/forms/d/e/1FAIpQLScPvHUSxz1SO5exwf4hsLrJLEWIgl3pLtvekLAhjblnADF1OA/viewform?embedded=false)
+To send us a message please use [this form](https://docs.google.com/forms/d/e/1FAIpQLScPvHUSxz1SO5exwf4hsLrJLEWIgl3pLtvekLAhjblnADF1OA/viewform?embedded=false)
