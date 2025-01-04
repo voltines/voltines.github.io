@@ -63,3 +63,9 @@ footer {
 #navbarNav > ul > li > a:hover {
     color: #ff0000; 
 }
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
