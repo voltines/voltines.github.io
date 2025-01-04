@@ -9,6 +9,6 @@
 
   <div id="result"></div>
 
-  <script src="js/name_generator.js" type=">
+  <script src="js/name_generator.js">
 
   </script>
