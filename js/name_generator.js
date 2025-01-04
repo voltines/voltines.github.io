@@ -32,6 +32,6 @@ function generateVoltineName() {
 
       // Hide thinking animation and display result
       thinkingDiv.style.display = "none";
-      resultDiv.innerText = `Your Voltine name is:<br><b>${voltineName}</b>`;
+      resultDiv.innerHTML = `Your Voltine name is:<br><b>${voltineName}</b>`;
     }, 3000); // 3-second delay
   }
