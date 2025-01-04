@@ -3,6 +3,7 @@
 **The Voltines** are a high-energy covers band with a passion for live performance. Based in Berkhamsted (Hertfordshire, UK), we’ve been delivering electrifying shows at weddings, parties, and local venues for over two years.
 
 ![Rocking the crowd at Comrades Corner](img/comrades-corner.jpg)
+
 *Rocking the crowd at Comrades Corner.*
 
 ## Who We Are
