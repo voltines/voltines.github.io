@@ -39,13 +39,6 @@ h2 {
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
 }
 
-.container img {
-    display: block;
-    max-width: 100%; /* Ensures image does not exceed container width */
-    height: auto; /* Maintains aspect ratio */
-    margin: 0 auto; /* Optional: Center image if needed */
-}
-
 footer {
     background: #02020f;
     color: #ffffff;
