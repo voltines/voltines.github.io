@@ -39,6 +39,12 @@ h2 {
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
 }
 
+.container > img {
+    display: block;
+    max-width: 900px;
+    height: auto;
+}
+
 footer {
     background: #02020f;
     color: #ffffff;
@@ -64,8 +70,3 @@ footer {
     color: #ff0000; 
 }
 
-img {
-    display: block;
-    max-width: 900px;
-    height: auto;
-}
