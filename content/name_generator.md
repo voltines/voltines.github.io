@@ -24,12 +24,6 @@
         "Supercharged", "Hot", "Flashing", "Live", "Sizzling"
       ];
 
-      const nouns = [
-        "Storm", "Revolution", "Pulse", "Jolt", "Wave", 
-        "Flash", "Arc", "Breaker", "Generator", "Grid", 
-        "Sparkle", "Radiance", "Glare", "Beacon", "Bolt"
-      ];
-
       function getRandomElement(array) {
         return array[Math.floor(Math.random() * array.length)];
       }
@@ -45,9 +39,8 @@
       setTimeout(() => {
         const part1 = getRandomElement(adjectives);
         const part2 = getRandomElement(electricalTerms);
-        const part3 = getRandomElement(nouns);
 
-        const voltineName = `${part1} ${part2} ${part3}`;
+        const voltineName = `${part1} ${part2}`;
 
         // Hide thinking animation and display result
         thinkingDiv.style.display = "none";

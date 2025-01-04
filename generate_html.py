@@ -30,22 +30,6 @@ source_file = "CNAME"
 output_file = Path(OUTPUT_DIR) / source_file
 shutil.copy(source_file, output_file)
 
-# Build navigation bar
-nav_items = []
-for md_file in Path(CONTENT_DIR).glob("*.md"):
-    # Generate navigation link
-    file_name = md_file.stem
-    title = file_name.replace("-", " ").capitalize()
-
-    # Special case for home page
-    if file_name != "home":
-        nav_items.append(
-            f'<li class="nav-item"><a class="nav-link" href="{file_name}.html">{title}</a></li>'
-        )
-
-# Join navigation items into a single string
-navigation_html = "\n".join(nav_items)
-
 # Process each Markdown file
 for md_file in Path(CONTENT_DIR).glob("*.md"):
     # Determine the output HTML file name
@@ -70,11 +54,9 @@ for md_file in Path(CONTENT_DIR).glob("*.md"):
         img["class"] = existing_classes
     html_content = str(soup)
 
-    # Insert the title, navigation, and content into the template
-    final_html = (
-        template.replace("{{ title }}", title)
-        .replace("{{ navigation }}", navigation_html)
-        .replace("{{ content }}", html_content)
+    # Insert the title and content into the template
+    final_html = template.replace("{{ title }}", title).replace(
+        "{{ content }}", html_content
     )
 
     # Save the resulting HTML file
