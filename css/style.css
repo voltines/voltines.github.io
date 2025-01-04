@@ -1,8 +1,8 @@
 /* General Styles */
 body {
     font-family: 'Arial', sans-serif;
-    color: #f8f9fa;
-    background-color: #121212; /* Dark background for a music vibe */
+    color: #ffffff; /* White text for readability */
+    background: linear-gradient(to bottom, #0a0a23, #3d005c); /* Gradient background similar to the flyer */
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -10,102 +10,90 @@ body {
 
 /* Links */
 a {
-    color: #ff4757; /* Vibrant red for links */
+    color: #f9dc5c; /* Bright yellow for links */
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #ff6b81; /* Lighter red on hover */
+    color: #ff6f61; /* Light red on hover */
 }
 
 /* Header */
 header {
-    background: #1e1e1e; /* Darker gray for the header */
-    padding: 1rem;
     text-align: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    background: #02020f; /* Dark background for contrast */
+    padding: 2rem 0;
+    color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
 }
 
 header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #f9dc5c; /* Vibrant yellow for main title */
+    text-transform: uppercase;
     margin: 0;
-    font-size: 2.5rem;
-    color: #ff4757; /* Bold title color */
 }
 
 header p {
     font-size: 1.2rem;
-    color: #ced6e0; /* Light gray for subtitles */
-}
-
-/* Navigation Bar */
-nav {
-    background: #232323; /* Dark gray for navbar */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-}
-
-nav li {
-    margin: 0 15px;
-}
-
-nav a {
-    color: #f8f9fa;
     font-weight: bold;
     text-transform: uppercase;
-    transition: color 0.3s ease;
+    color: #f4511e; /* Bright orange for emphasis */
 }
 
-nav a:hover {
-    color: #ff6b81;
+/* Section Titles */
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #f9dc5c;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #f9dc5c;
+    display: inline-block;
+    padding-bottom: 0.5rem;
 }
 
 /* Main Content */
 .container {
-    max-width: 800px;
+    max-width: 900px;
     margin: 2rem auto;
-    padding: 1rem;
-    background: #1e1e1e;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.1); /* Transparent white for subtle contrast */
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
 }
 
 .container h2 {
-    color: #ff4757;
-    border-bottom: 2px solid #ff4757;
-    padding-bottom: 0.5rem;
-    margin-bottom: 1rem;
+    margin-top: 0;
 }
 
 /* Buttons */
 button,
 input[type="submit"] {
-    background: #ff4757;
-    color: #f8f9fa;
+    background: #f9dc5c;
+    color: #02020f;
     border: none;
     padding: 0.8rem 1.5rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
     border-radius: 5px;
     cursor: pointer;
-    transition: background 0.3s ease;
+    text-transform: uppercase;
+    transition: background 0.3s ease, color 0.3s ease;
 }
 
 button:hover,
 input[type="submit"]:hover {
-    background: #ff6b81;
+    background: #ff6f61;
+    color: #ffffff;
 }
 
 /* Footer */
 footer {
-    background: #232323;
-    color: #ced6e0;
+    background: #02020f;
+    color: #ffffff;
     text-align: center;
     padding: 1rem 0;
     margin-top: 2rem;
@@ -115,7 +103,7 @@ footer {
 /* Gallery */
 .gallery img {
     width: 100%;
-    border-radius: 5px;
+    border-radius: 10px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
 }
@@ -126,4 +114,13 @@ footer {
 }
 
 /* Responsive Design */
-@me
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    .container {
+        margin: 1rem;
+        padding: 1rem;
+    }
+}
