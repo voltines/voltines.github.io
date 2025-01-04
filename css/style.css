@@ -1,4 +1,3 @@
-/* General Styles */
 body {
     font-family: 'Verdana';
     color: #ffffff; 
@@ -53,7 +52,7 @@ footer {
     margin-right: 10px;
 }
 
-.navlink {
+#navbarNav > ul > li > a {
     vertical-align: bottom;
     font-size: 2rem;
     font-weight: bold;
