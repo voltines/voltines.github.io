@@ -12,7 +12,7 @@
 - **Adam Howard**: Drums & Vocals  
 - **James**: Guitar
 - **Dominic James**: Guitar, Thermin and Stylophone
-- **Peter**: Keyboards & Vocals
+- **Peter Stuart**: Keyboards & Vocals
 
 We bring a mix of charisma, talent, and experience to every stage, ensuring an unforgettable night for all audiences.
 
